@@ -1,4 +1,5 @@
-""" Find all parallelepipeds that are an optimal solution to the taxicab distance problem, and group them by uniqueness. """
+""" Find all parallelepipeds that are an optimal solution to the taxicab
+distance problem, and group them by uniqueness. """
 from itertools import product, combinations
 from multiprocessing import Pool, cpu_count
 from math import acos, degrees
